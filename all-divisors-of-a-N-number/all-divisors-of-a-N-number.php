@@ -11,7 +11,7 @@ function findDivisors ($number){
     return  $divisors;
 }
 
-$number = 50;
+$number = 100;
 $divisorsNumbers = findDivisors($number);
 
 echo "The divisors of $number are:";
