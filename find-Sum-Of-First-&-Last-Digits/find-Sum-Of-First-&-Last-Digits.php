@@ -8,8 +8,9 @@ function findSumOfFirstAndLastDigits($number){
     return $sum;
 }
 
-$fromUser = readline("Please enter number ");
-
+//If readline not working or say Warning: Uninitialized string offset 0 your php version:> then comment $fromUser readline line and uncomment under $fromUser line;
+//$fromUser = readline("Please enter number ");
+$fromUser = "125479";
 $sumNumber = findSumOfFirstAndLastDigits($fromUser);
 
 echo "First and Last digits Sum is : $sumNumber";
